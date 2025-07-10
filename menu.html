@@ -1,23 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Aurelio's Table - Menu</title>
+  <meta charset="UTF-8">
+  <title>📖 Aurelio's Table - View Menu</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    body { font-family: sans-serif; text-align: center; margin: 30px; }
-    a.button {
-      display: inline-block;
-      padding: 14px 28px;
-      background-color: #007bff;
+    body {
+      margin: 0;
+      background-color: #f9f9f9;
+      font-family: sans-serif;
+    }
+
+    header {
+      background-color: #004d40;
       color: white;
-      border-radius: 8px;
-      text-decoration: none;
-      font-size: 18px;
+      text-align: center;
+      padding: 1rem;
+      font-size: 1.5rem;
+    }
+
+    iframe {
+      width: 100%;
+      height: 90vh;
+      border: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 0.5rem;
+      font-size: 0.9rem;
+      color: #555;
     }
   </style>
 </head>
 <body>
-  <h1>🍽️ Welcome to Aurelio's Table</h1>
-  <p>Tap below to view our full menu:</p>
-  <a class="button" href="Menu 1.pdf" target="_blank">📄 View Menu (PDF)</a>
+
+  <header>
+    📋 Welcome to Aurelio's Table<br>
+    Tap to View Our Menu Below
+  </header>
+
+  <iframe src="menu.pdf"></iframe>
+
+  <footer>
+    No app needed – just scan & view.
+  </footer>
+
 </body>
 </html>
